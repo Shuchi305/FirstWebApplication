@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerLinks}}
+</head>
+<body>
+        <!-- navbar-->
+    {{>navbar}}
+
+    <!-- main header -->
+    <div class = "container-fluid main_header">
+        <div class = "row">
+            <div class = "col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <!--left side div-->
+                    <div class = "col-md-5 col-12 main_header_right align-items-center">
+                        <figure>
+                            <img src="images/about.jpeg" alt="shuchi" class="img-fluid" title="shuchi">
+                        </figure>
+
+                    </div>
+                    <!--right side div-->
+                    <div class = "col-md-6 col-12 main_header_left">
+                        <p>Welcome to Shuchi's World </p>
+                        <h1>I am a <span class="text-clr">Software Developer</span> and 
+                            a Graduate from <span class="text-clr">IIT Jammu</span></h1>
+                
+                        <a href="/weather"> <button>check now</button> </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <!--footer-->  
+    {{>footer}}
+</body>
+</html>
